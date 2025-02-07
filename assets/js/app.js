@@ -1,6 +1,6 @@
 const baseEndpoint = 'https://api.github.com';
 const usersEndpoint = `${baseEndpoint}/users`;
-const $n = document.querySelector('name');
+const $n = document.querySelector('name'); /* Me parece que aqui se refiere a la clase name del index, le falta un punto*/
 const $b = document.querySelector('#blog');
 const $l = document.querySelector('.location');
 
